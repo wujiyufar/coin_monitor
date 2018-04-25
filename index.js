@@ -1,8 +1,9 @@
 var GitHub = require('github-api');
+const Cfg = require('./cfg');
 
 // basic auth
 var gh = new GitHub({
-   token: 'c6244e41822aa715b3c6fe1ae61a6f158753ea40'
+   token: Cfg.token
 });
 
 var me = gh.getUser(); // no user specified defaults to the user for whom credentials were provided
