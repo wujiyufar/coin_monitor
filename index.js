@@ -12,5 +12,5 @@ me.listNotifications(function(err, notifications) {
 });
 
 me.listStarredRepos(function(err, repos) {
-   // console.log(repos)
+   console.log(repos)
 });
