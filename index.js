@@ -2,7 +2,7 @@ var GitHub = require('github-api');
 
 // basic auth
 var gh = new GitHub({
-   token: '35691ff5451c01eeff2c922a1109d4a127c40fb6'
+   token: 'c6244e41822aa715b3c6fe1ae61a6f158753ea40'
 });
 
 var me = gh.getUser(); // no user specified defaults to the user for whom credentials were provided
